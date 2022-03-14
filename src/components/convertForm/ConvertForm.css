@@ -1,0 +1,33 @@
+.convert-form{
+    padding: 20px;
+}
+
+.convert-form select{
+    width: 90%;
+    display: block;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto 15px auto;
+}
+
+.convert-form input {
+    width: 90%;
+    display: block;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto 15px auto;
+}
+
+.button-form{
+    background-color: #000080;
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.convert-result p{
+    font-weight: 700;
+}

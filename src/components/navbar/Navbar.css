@@ -1,0 +1,17 @@
+div#navbar{
+    background-color: #353535;
+    height: 70px;
+    text-align: start;
+}
+
+div#navbar .logo-container{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#navbar .logo-container img {
+    width: 30px;
+}

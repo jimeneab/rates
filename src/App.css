@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.Sidebar {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top:90px;
+  background-color: beige;
+}
+
+.tab-component{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab-component button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 50%;
+  font-size: large;
+}
+
+.tab-component button.active {
+  background-color: #666666;
+  color: #f1f1f1;
+  border: 1px solid #666666;
+} 
+
+.check-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-item {
+  width: 20%;
+} 
+
+.hero-section{
+  background-image:url(./assets/img/bgHero.png);
+  background-size: cover;
+  height: 50vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+  color: white;
+  font-family:fantasy
+}
+
+.main-card{
+  background-color: #f4f4f4;
+  width: 60%;
+  margin: -60px auto 30px auto;
+  position: relative;
+  border: 1px solid #666666;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px -5px #666666;
+}
+
+.content-section{
+  margin: 10px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+
+.service-card {
+  border: 1px solid #999999;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 0px 4px 20px -5px #666666;
+  padding: 20px;
+}
+
+table, th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px 15px;
+  text-align: left;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+thead tr:first-child{
+  background-color: #000080;
+  color: #f1f1f1;
+}
+
+.service-button{
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 2px solid #0404e2;
+  color: #0404e2;
+}
+
+footer {
+  height: 120px;
+  background-color: #000080;
+  color: #f1f1f1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer svg{
+  margin: 10px;
+}

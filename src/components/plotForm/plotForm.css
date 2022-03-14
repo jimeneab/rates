@@ -1,0 +1,33 @@
+.plotForm-container{
+    text-align: center;
+}
+
+.rates-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-form-plot{
+    background-color: #000080;
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    border: 2px solid #000080;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.button-form-transparent{
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 2px solid #0404e2;
+    color: #0404e2;
+    margin: 10px 5px;
+    border-radius: 5px;
+  }
+
+.plot-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
